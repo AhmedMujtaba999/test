@@ -1,0 +1,32 @@
+{{!-- <!DOCFTYPE html> --}}
+    <html>
+
+    <head>
+        <title>waether</title>
+        {{>tabicon}}
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <div class="main-content">
+            {{>header}}
+
+            <h2>please type in place name</h2>
+
+
+            <form id="locationInput">
+                <input id="fname" name="fname" placeholder="location">
+                <button>search
+                </button>
+            </form>
+            <p id="location"></p>
+            <p id="temperature"></p>
+        </div>
+        {{>footer}}
+        <script src="js/script.js"></script>
+
+    </body>
+
+
+    </html>
